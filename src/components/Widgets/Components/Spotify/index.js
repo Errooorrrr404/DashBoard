@@ -9,7 +9,7 @@ import * as $ from "jquery";
 import UnknownMusic from "../../../../assets/unknow_music.png"
 
 export const authEndpoint = 'https://accounts.spotify.com/authorize/?';// Replace with your app's client ID, redirect URI and desired scopes
-const clientId = "55a31b8c660f44d8b21231118de1b551";
+const clientId = "";
 const redirectUri = "http://localhost:8080/home";
 
 const scopes = [
