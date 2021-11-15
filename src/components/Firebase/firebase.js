@@ -5,14 +5,6 @@ import 'firebase/database';
 import 'firebase/firestore';
 
 const config = {
-    apiKey: "AIzaSyB4-rCX9K_CPr4gILLhA5WGBI3MCi_PhJM",
-    authDomain: "dash-294715.firebaseapp.com",
-    databaseURL: "https://dash-294715.firebaseio.com",
-    projectId: "dash-294715",
-    storageBucket: "dash-294715.appspot.com",
-    messagingSenderId: "156378232596",
-    appId: "1:156378232596:web:3fe236942e371d2e77f401",
-    measurementId: "G-K44HSGEE5D"
 };
 
 class Firebase {
