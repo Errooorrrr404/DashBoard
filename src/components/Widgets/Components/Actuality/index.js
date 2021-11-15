@@ -23,7 +23,7 @@ class TopActuality extends Component {
 
     componentDidMount() {
         let language = this.props.data.country === "en" ? "us" : this.props.data.country;
-        let request = "top-headlines?country=" + language + "&apiKey=b7414e459a6840cc92ab38640f47d2eb";
+        let request = "top-headlines?country=" + language + "&apiKey=";
         instance.get(request)
             .then(res => {
                 if (res.data.articles.length !== undefined) {
