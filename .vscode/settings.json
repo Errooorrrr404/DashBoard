@@ -1,0 +1,6 @@
+{
+    "git.ignoreLimitWarning": true,
+    "ponicode.testSettings.testLocation.locationType": "Same folder as source file",
+    "ponicode.testSettings.testLocation.path": "{rootDir}/{filePath}/{fileName}.test.{ext}",
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration"
+}

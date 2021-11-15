@@ -1,0 +1,20 @@
+.resp-card {
+    width: 300px;
+}
+
+@media screen and (max-width: 640px) {
+    #flex {
+        display: flex;
+        flex-direction: column;
+    }
+    #flex > #a {
+        order: 2;
+    }
+    #flex > #b {
+        order: 1;
+        }
+        .resp-card {
+            width: 100%;
+        }
+        
+  }
