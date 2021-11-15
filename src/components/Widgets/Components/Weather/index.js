@@ -16,7 +16,7 @@ class Weather extends Component {
     updateWeather = () => {
         let self = this;
         let name = self.props.data.nom.substr(8)
-        axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + name + '&appid=52091209fbbbec684d6361b38e2cfe7a&units=metric')
+        axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + name + '&appid=&units=metric')
             .then(function (response) {
                 self.setState({ data: (response.data) })
             });
@@ -26,7 +26,7 @@ class Weather extends Component {
         window.setInterval(this.updateWeather, 10000);
         let self = this;
         let name = self.props.data.nom.substr(8)
-        axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + name + '&appid=52091209fbbbec684d6361b38e2cfe7a&units=metric')
+        axios.get('https://api.openweathermap.org/data/2.5/weather?q=' + name + '&appid=&units=metric')
             .then(function (response) {
                 self.setState({ data: (response.data), loading: true })
             });
